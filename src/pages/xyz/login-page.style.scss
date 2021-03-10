@@ -1,0 +1,138 @@
+
+    @import url('https://fonts.googleapis.com/css?family=Numans');
+
+    // html,body{
+    // background-image: url('http://getwallpapers.com/wallpaper/full/a/5/d/544750.jpg');
+    // background-size: cover;
+    // background-repeat: no-repeat;
+    // height: 100%;
+    // font-family: 'Numans', sans-serif;
+    // }
+
+    .login_page{
+        font-family: 'Numans', sans-serif;
+        // font-size: 13px;
+        background-image:url("https://free4kwallpapers.com/uploads/originals/2020/07/18/taj-mahal-agra-india-wallpaper.jpg");
+    
+        background-size: 100%;
+    }
+
+    .container{
+    height: 100vh;
+    align-content: center;
+    }
+
+    .card{
+    height: 370px;
+    margin-top: auto;
+    margin-bottom: auto;
+    opacity: .8;
+    width: 400px;
+    // background-color: rgba(255, 255, 255, 1) !important;
+    // background-color: rgba(0,0,0,0.5) !important;
+    }
+
+    // .card * {
+    //     opacity: 1;
+    // }
+
+    .social_icon span{
+    font-size: 40px;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: #FFC312;
+    }
+
+    .social_icon span:hover{
+    color: white;
+    cursor: pointer;
+    }
+
+    .card-header h3{
+    color: black;
+    }
+
+    .card-body{
+        display: flex;
+        align-items: center;
+        align-self: center;
+    }
+
+    .social_icon{
+    position: absolute;
+    right: 20px;
+    top: -45px;
+    }
+
+    .input-group{
+        margin: 5px;
+    }
+    .input-group-prepend{
+        :hover{
+            background-color: black;
+        }
+
+    }
+    .input-group-prepend:hover span{
+        color: whitesmoke;
+    }
+    .input-group-prepend span{
+    width: 50px;
+    height:100%;
+    background-color: #FFC312;
+    color: black;
+    border:0 !important;
+    :hover{
+        color: white;
+    }
+    }
+    .input-group-text {
+        justify-content: center;
+    }
+
+    input:focus{
+    outline: 0 0 0 0  !important;
+    box-shadow: 0 0 0 0 !important;
+
+    }
+
+    .remember{
+    color: black;
+    }
+
+    .remember input
+    {
+    width: 15px;
+    height: 15px;
+    margin-left: 17.5px;
+    margin-right: 5px;
+    }
+
+    .login_button{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .login_btn{
+    color: black;
+    background-color: #FFC312;
+    width: 100px;
+    }
+
+    .login_btn:hover{
+    color: white;
+    background-color: black;
+    }
+    .footer_content{
+    color: black;
+    }
+
+    .links{
+    color: black(255, 255, 255);
+    }
+
+
+
+    .links a{
+    color: black;
+    margin-left: 4px;
+    }
